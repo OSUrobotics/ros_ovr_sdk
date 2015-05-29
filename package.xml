@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>ros_ovr_sdk</name>
+  <name>OculusSDK</name>
   <version>0.0.0</version>
   <description>The ros_ovr_sdk package</description>
 
@@ -40,7 +40,6 @@
   <!-- Use test_depend for packages you need only for testing: -->
   <!--   <test_depend>gtest</test_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
-
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
