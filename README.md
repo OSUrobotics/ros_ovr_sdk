@@ -1,5 +1,8 @@
-# oculus_sdk_ros
-A ROS package which will build the Oculus SDK as a shared library and link the appropriate libraries in other packages that build with it.
+# ros_ovr_sdk
 
-To test the Rift, just type 'rosrun OculusSDK OculusWorldDemo"
-To run ovrd, enter the command "rosrun OculusSDK ovrd"
+A ROS package which builds the Oculus SDK as a shared library and outputs a link to the appropriate includes/libraries that other packages can use.
+
+This library is designed to be upgrade friendly, allowing newer versions of the SDK to be added.
+
+To test the Rift, just type 'rosrun ros_ovr_sdk OculusWorldDemo"
+To run ovrd, enter the command "rosrun ros_ovr_sdk ovrd"
