@@ -21,5 +21,7 @@ execute_process(
 
 catkin_package(
 	INCLUDE_DIRS ${OVR_OUT_DIR}/include
-	LIBRARIES ${OVR_OUT_DIR}/lib/libOVRRT64_0.so.5.0.1
+	LIBRARIES ${OVR_OUT_DIR}/lib/libOVRRT64_0.so.5.0.1 
+			  ${OVR_OUT_DIR}/lib/libOVRRT64_0.so.5
+			  ${OVR_OUT_DIR}/lib/libOVR.a
 )
